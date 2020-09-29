@@ -14,8 +14,7 @@ class Bird {
     };
     display(){
      var angle = this.body.angle;
-           this.body.position.x = mouseX;
-        this.body.position.y = mouseY;
+          
         push();
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
