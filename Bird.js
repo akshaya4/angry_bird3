@@ -8,7 +8,7 @@ class Bird {
       this.body = Bodies.rectangle(x, y, 50, 50, options);
       this.width = width;
       this.height = height;
-      this.image = loadImage("sprite/bird.png");
+      this.image = loadImage("sprites/bird.png");
       World.add(world, this.body);
       
     };
