@@ -6,8 +6,8 @@ class Bird {
         'restitution':0.5
       };
       this.body = Bodies.rectangle(x, y, 50, 50, options);
-      this.width = 50;
-      this.height = 50;
+      this.width = width;
+      this.height = height;
       this.image = loadImage("sprite/bird.png");
       World.add(world, this.body);
       
